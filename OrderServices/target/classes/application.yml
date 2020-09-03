@@ -1,0 +1,6 @@
+
+server:
+  port: 1002
+ 
+spring:  h2:    console:      enabled: true  datasource:    platform: h2    url: jdbc:h2:mem:orderserviceDb  jpa:    show-sql: true
+            
